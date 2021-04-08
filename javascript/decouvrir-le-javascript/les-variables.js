@@ -16,7 +16,7 @@ var monObjet = {nom:"Nguele", prenom:"Parfait Emmanuel", age:100, marie:false};
 
 tableau[0]; //retourne "valeur 1"
 tableau[1]; //retourne 12
-tableau [2]; //retourne true
+tableau[2]; //retourne true
 
 //Je récupère les valeurs de l'objet
 

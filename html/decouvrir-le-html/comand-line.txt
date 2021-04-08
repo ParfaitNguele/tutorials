@@ -1,0 +1,3 @@
+//Code utilisé dans le tutoriel pour pour me rendre dans le dossier "tutoriels" et créer le sous-dossier "html"; sous wondows
+
+$ cd C:\Users\nguel\OneDrive\Bureau\Projets\Tutoriels && mkdir html

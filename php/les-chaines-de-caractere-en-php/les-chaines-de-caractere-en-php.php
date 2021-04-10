@@ -177,9 +177,9 @@
 
     //Met en majuscule la première lettre de tous les mots
     public function modifie(){
-      $str = "un autre chaine";
+      $str = "une autre chaine";
       $a = ucwords($str);
-      print $a;//Affiche : Un Autre Chaine
+      print $a;//Affiche : Une Autre Chaine
     }
   }
   //

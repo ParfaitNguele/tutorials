@@ -16,7 +16,7 @@
     public $c1 = "bonne";
     public $c2 = "sonne";
     public $c3 = "maire";
-    public $string = "maire paire";
+    public $string = "paire maire";
 
     //Pour échapper les caractères ' \ et "
     public function echappe(){
@@ -100,10 +100,10 @@
     //remplace toutes les occurences d'une chaine de caractère dans une autre chaine de caractère. Insensible à la casse
     public function remplace(){
       $count = 2;
-      $a = str_ireplace("%air%", "è", $this->string);
-      $b = str_ireplace("%air%", "è", $this->string, $count);
-      print $a;//Affiche : maire paire
-      print $b;//Affiche : maire paire
+      $a = str_ireplace("ai", "è", $this->string);
+      $b = str_ireplace("ai", "è", $this->string, $count);
+      print $a;//Affiche : paire maire
+      print $b;//Affiche : paire maire
     }
 
     //Repete une chaine de caractère le nombre de fois indiqué

@@ -37,7 +37,7 @@
       echo $a; //affiche : Bonj|our |le m|onde| !|
     }
 
-    //Pour acher à sens unique (indéchiffrable)
+    //Pour hacher à sens unique (indéchiffrable)
     public function ache(){
       $a = crypt ( $this->password , $this->salt );
       echo $a; //affiche : pv5jCAQXOOqDg
